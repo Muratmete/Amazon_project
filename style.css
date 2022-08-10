@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+.container {
+  max-width: 2200px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.754);
+  justify-content: space-between;
+  color: white;
+  height: 80px;
+  width: 100%;
+  /* position: fixed; */
+}
+#menu {
+  display: flex;
+  margin-right: 40px;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: baseline;
+}
+#menu a {
+  color: white;
+  text-decoration: none;
+}
+#button1 {
+  width: 300px;
+  height: 60px;
+  color: white;
+  background-color: #0f79af;
+  cursor: pointer;
+  font-size: 17px;
+}
+#button2 {
+  width: 300px;
+  height: 60px;
+  color: white;
+  background-color: #0f79af;
+  cursor: pointer;
+  font-size: 17px;
+}
+.dil {
+  margin: 0 20px;
+  vertical-align: auto;
+}
+#dropdown {
+  outline: none;
+  background-color: rgb(63 63 63);
+  border: none;
+  color: white;
+}
+
+#logo img {
+  width: 112px;
+  height: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#world {
+  width: 20px;
+}
+.bolum1 {
+  /* margin-top: 80px; */
+  background-image: url(./images/En_ust.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 565px;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  padding-left: 55%;
+}
+.icerik1 {
+  width: 550px;
+  margin-right: 250px;
+}
+.bolum2 {
+  background-image: url(./images/ikinci.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 750px;
+  background-size: cover;
+  color: white;
+  padding-left: 55%;
+  /* height: 680px; */
+}
+.icerik2 {
+  width: 850px;
+  padding-top: 280px;
+  font-size: 21px;
+  padding-left: 50px;
+  color: black;
+}
+.deneme {
+  width: 300px;
+  height: 60px;
+  color: white;
+  background-color: #0f79af;
+  cursor: pointer;
+  font-size: 17px;
+}
+.bolum3 {
+  background-image: url(./images/ucuncu.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 565px;
+  background-size: cover;
+  /* display: flex;
+  justify-content: flex-end;
+  align-items: center; */
+  color: white;
+  padding-left: 58%;
+}
+.icerik3 {
+  width: 700px;
+  margin-right: 200px;
+  padding-top: 150px;
+  font-size: 30px;
+}
+.icerik3 p {
+  font-size: 17px;
+}
+.bolum4 {
+  display: flex;
+}
+.bolum4 p {
+  text-align: center;
+}
+.bolum4 {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.column {
+  display: inline-block;
+  float: left;
+  width: 33.33%;
+  font-size: 21px;
+}
+.bildirim {
+  justify-content: center;
+  display: flex;
+}
+.bildirim a {
+  text-decoration: none;
+  color: #0f79af;
+  padding: 6px;
+}
+.footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
